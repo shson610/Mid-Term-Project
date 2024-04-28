@@ -39,9 +39,9 @@ body::-webkit-scrollbar {
 .btn-code {
   padding: 8px 23px;
   border-radius: 20px;
-  background-color: #6a75ca;
+  background-color: white;
   border: solid 2px #6a75ca;
-  color: white;
+  color: #6a75ca;
 }
 .btn-code:hover {
   background-color: white;
@@ -76,6 +76,7 @@ body::-webkit-scrollbar {
   margin-right: 40px;
 }
 .txt-title {
+  font-weight: 700;
   width: 620px;
   margin-top: 30px;
   font-size: 55px;
@@ -111,6 +112,7 @@ body::-webkit-scrollbar {
   margin: 0 0 140px 0;
 }
 .section-about h2 {
+  font-weight: 800;
   margin: 0 auto 100px;
   display: inline-block;
   font-family: "Pretendard Variable";
@@ -190,6 +192,7 @@ body::-webkit-scrollbar {
   margin-bottom: 17px;
   width: 110px;
   font-size: 22px;
+  font-weight: 700;
   font-family: "Pretendard Variable";
   color: #6a75ca;
 }
@@ -239,6 +242,7 @@ body::-webkit-scrollbar {
   font-family: "Pretendard Variable";
   color: #6a75ca;
   font-size: 40px;
+  font-weight: 800;
   margin-bottom: 40px;
 }
 
@@ -281,6 +285,7 @@ body::-webkit-scrollbar {
 .txt-travel h3 {
   font-family: "Pretendard Variable";
   font-size: 28px;
+  font-weight: 700;
   line-height: 35px;
   margin-bottom: 30px;
 }
@@ -288,6 +293,7 @@ body::-webkit-scrollbar {
   font-family: "Pretendard Variable";
   color: #6a75ca;
   font-size: 22px;
+  font-weight: 700;
   margin-bottom: 6px;
 }
 .txt-travel dl dd {
@@ -303,6 +309,7 @@ body::-webkit-scrollbar {
   font-family: "Pretendard Variable";
   color: #6a75ca;
   font-size: 40px;
+  font-weight: 800;
   margin-bottom: 50px;
 }
 .box-footer {
