@@ -297,6 +297,7 @@ body::-webkit-scrollbar {
   margin-bottom: 6px;
 }
 .txt-travel dl dd {
+  line-height: 180%;
   font-size: 20px;
   margin-bottom: 25px;
 }
