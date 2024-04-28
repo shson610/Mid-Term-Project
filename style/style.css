@@ -335,9 +335,9 @@ body::-webkit-scrollbar {
 .modal-background {
   display: none;
   justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
+  align-items: first baseline;
+  width: 80vw;
+  height: 80vh;
   background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
