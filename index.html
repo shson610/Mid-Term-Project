@@ -98,18 +98,11 @@
         <h2>Project.</h2>
         <article class="box-project">
           <div>
-            <img
-              class="img-project"
-              src="src/img/project1.PNG"
-              alt="첫번째 프로젝트 이미지"
-            />
-            <button
-              class="btn-detail"
-              type="button"
-              onclick="location.href='https://hyerrin.github.io/movie_app/';"
-            >
-              자세히 보기
-            </button>
+            <video id="myVideo" width="400" height="240" controls>
+              <source src="src\video\trip.mp4" type="video/mp4">
+            </video>
+            <br>
+            <button class="btn-detail" type="button" onclick="playVideo()">동영상 재생</button>
           </div>
           <div class="txt-project">
             <h3>I Love Movie</h3>

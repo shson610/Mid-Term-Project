@@ -99,3 +99,9 @@ window.addEventListener(
   },
   false
 );
+
+
+function playVideo() {
+  var video = document.getElementById("myVideo");
+  video.play();
+}
