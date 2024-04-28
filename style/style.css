@@ -128,18 +128,18 @@ body::-webkit-scrollbar {
 .slide-album {
   position: relative;
   width: 438px;
-  height: 438px;
+  height: 600px;
   overflow: hidden;
   border-radius: 20px;
 }
 .slide-images {
   position: relative;
   display: flex;
-  height: 438px;
+  height: 600px;
 }
 .slide-images img {
   width: 438px;
-  height: 438px;
+  height: 600px;
 }
 .btn-next,
 .btn-next:active,

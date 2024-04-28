@@ -44,7 +44,7 @@ let prev = function () {
 };
 
 let next = function () {
-  if (imgIndex < 5) {
+  if (imgIndex < 2) {
     $btnPrev.removeAttribute("disabled");
     position -= IMG_WIDTH;
     $slideImgs.style.transform = `translateX(${position}px)`;
