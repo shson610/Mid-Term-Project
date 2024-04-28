@@ -83,7 +83,7 @@
             </dl>
             <div class="btn-about">
               <button class="btn-open" type="button">
-                <img src="src/img/icon-diary.png" alt="" />취미
+                <img src="src/img/icon-diary.png" alt="" />Career
               </button>
               <button class="btn-open" type="button">
                 <img src="src/img/icon-heart.png" alt="" />MBTI
@@ -99,11 +99,23 @@
         <article class="box-project">
           <div>
             <video id="myVideo" width="270" height="400" controls>
-              <source src="src\video\trip.mp4" type="video/mp4">
+              <source src="src/video/trip.mp4" type="video/mp4">
             </video>
             <br>
-            <button class="btn-detail" type="button" onclick="playVideo()">동영상 재생</button>
+            <button class="btn-detail" type="button" onclick="toggleVideo()">Start / Stop</button>
           </div>
+  
+          <script>
+          function toggleVideo() {
+            var video = document.getElementById("myVideo");
+            if (video.paused) {
+              video.play();
+            } else {
+              video.pause();
+            }
+          }
+          </script>
+
           <div class="txt-project">
             <h3>Kyoto, Japan</h3>
             <dl>
@@ -169,12 +181,11 @@
       </footer>
       <div class="modal-background">
         <div class="modal">
-          <h3>취미</h3>
-          <h4>다이어리 꾸미기</h4>
-          <img src="src/img/img-diary.jpg" alt="다이어리 이미지" />
+          <h3>Datascientist</h3>
+          <h4>데이터 과학자</h4>
+          <img src="src/img/data_scientist.jpg" alt="career 이미지" />
           <p>
-            취미는 다이어리꾸미기예요🎀 빈 종이를 저만의 취향으로 가득 채우고,
-            하루를 되돌아보며 일기를 쓰는 것을 좋아해요✍🏻
+            전공지식을 활용하여 다양한 데이터를 분석하는 데이터 사이언티스트가 되고 싶습니다.
           </p>
           <button type="button" class="btn-close">Close</button>
         </div>
@@ -183,7 +194,7 @@
         <div class="modal">
           <h3>MBTI</h3>
           <h4>외향적이며 긍정적이에요</h4>
-          <img src="src/img/enfp.png" alt="책상 이미지" />
+          <img src="src/img/mbti.png" alt="책상 이미지" />
           <p>
             책임감이 강해 한 번 시작한 일은 끝까지 해낸다는 장점를 가지고 있어요💪🏻
           </p>
