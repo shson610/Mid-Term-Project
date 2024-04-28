@@ -415,3 +415,30 @@ body::-webkit-scrollbar {
   background-image: url(../src/img/btn-moveTop-hover.png);
   transition: 0.5s ease-out;
 }
+
+
+/* Experiences */
+.section-experiences {
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.experience-box {
+  display: flex;
+  align-items: center;
+}
+
+.experience-img img {
+  width: 300px; /* 이미지 크기 조정 */
+  height: 70px; /* 이미지 크기 조정 */
+  object-fit: cover; /* 이미지 비율 유지 */
+}
+
+.experience-info {
+  margin-left: 20px;
+}
